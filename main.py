@@ -33,32 +33,5 @@ def main():
         except: st.info('Pleases Enter The Correct Image.')
 
 
-    # Add Footer at the Bottom
-    footer = """
-    <style>
-    footer {
-        visibility: hidden;
-    }
-    .main-footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #f9f9f9;
-        text-align: center;
-        padding: 10px;
-        font-size: 14px;
-        color: #333;
-    }
-    </style>
-    <div class="main-footer">
-        🌐 Created by Osama-Abo-Bakr | Skin Diseases Detection.
-        🌐 +20-1274011748
-    </div>
-    """
-    st.markdown(footer, unsafe_allow_html=True)
-
-
-
 if __name__ == '__main__':
     main()
