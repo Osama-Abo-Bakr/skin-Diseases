@@ -13,15 +13,15 @@ A Streamlit web application for detecting skin diseases using YOLO (You Only Loo
 
 Before running the application, ensure you have the following installed:
 
-- Python 3.7 or higher
+- Python 3.10 or higher
 - pip package manager
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/skin-disease-detection.git
-   cd skin-disease-detection
+   git clone https://github.com/Osama-Abo-Bakr/skin-Diseases.git
+   cd skin-Diseases
    ```
 
 2. Install the required packages:
