@@ -11,7 +11,6 @@ def main():
         st.session_state.model = YOLO(r'./models/new_model.pt')
         st.session_state.class_name = st.session_state.model.names
 
-    st.sidebar.subheader("`Upload Image`")
     file_uploader = st.sidebar.file_uploader('`Upload The Image`', type=['jpg', 'png', 'jpeg'])
 
     if file_uploader is not None:
