@@ -8,7 +8,7 @@ def main():
     st.sidebar.title('`Skin Diseases`🩺')
 
     if "model" not in st.session_state:
-        st.session_state.model = YOLO(r'./models/yolo-medical_30epoch.pt')
+        st.session_state.model = YOLO(r'./models/new_model.pt')
         st.session_state.class_name = st.session_state.model.names
 
     st.sidebar.subheader("`Upload Image`")
